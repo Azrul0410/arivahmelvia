@@ -45,7 +45,7 @@ const TIMELINE_EVENTS = [
     emoji: "🚗",
     title: "Momen di Mobil",
     date: "Momen Manis",
-    photo: "/Foto Kami/Foto Pegangan Tangan Di Mobil/1739187903548.jpg",
+    photo: "/Foto Kami/Waktu Pegangan Tangan Di Mobil/1739187903548.jpg",
     story:
       "Genggaman tangan hangat di dalam mobil, memberikan rasa tenang dan meyakinkan bahwa kita akan melalui segalanya bersama.",
   },
@@ -54,7 +54,7 @@ const TIMELINE_EVENTS = [
     emoji: "🥺",
     title: "Foto Terakhir Sebelum LDR Again",
     date: "17 Mei 2026",
-    photo: "/Foto Kami/Foto Terakhir sebelum kkn/IMG-20260517-WA0029.jpg",
+    photo: "/Foto Kami/Foto Terakhir Bertemu/IMG-20260517-WA0029.jpg",
     story:
       "Momen perpisahan sementara untuk pendidikan masing. Sedih rasanya harus berjauhan, tapi aku tahu ini untuk kebaikanmu.",
   },
@@ -62,9 +62,9 @@ const TIMELINE_EVENTS = [
 
 const GALLERY_ITEMS = [
   { id: 1, photo: "/Foto Kami/Date Pertama Setelah Jadian/IMG20240727221814.jpg", caption: "Date pertama setelah jadian ❤️" },
-  { id: 2, photo: "/Foto Kami/DB 1 sama isek/IMG-20250201-WA0036.jpg", caption: "Momen seru bareng 🌸" },
-  { id: 3, photo: "/Foto Kami/First dia Ke BL/IMG-20240618-WA0010.jpg", caption: "Dia pertama kali ke BL ✨" },
-  { id: 4, photo: "/Foto Kami/Foto Terakhir sebelum kkn/IMG-20260517-WA0066.jpg", caption: "Foto terakhir sebelum kamu berangkat KKN 🥺" },
+  { id: 2, photo: "/Foto Kami/Doble Date Sama Isek/IMG-20250201-WA0036.jpg", caption: "Momen seru bareng 🌸" },
+  { id: 3, photo: "/Foto Kami/Kamu Pertama Kali ke BL/IMG-20240618-WA0010.jpg", caption: "Dia pertama kali ke BL ✨" },
+  { id: 4, photo: "/Foto Kami/Foto Terakhir Bertemu/IMG-20260517-WA0066.jpg", caption: "Foto terakhir sebelum kamu berangkat KKN 🥺" },
   { id: 5, photo: "/Foto Kami/Main Di Taplau/IMG20250604182704.jpg", caption: "Main di Taplau menikmati sore 🌅" },
   { id: 6, photo: "/Foto Kami/OTW Bukit/IMG20250406185136.jpg", caption: "OTW Bukit seru-seruan bareng ⛰️" },
   { id: 7, photo: "/Foto Kami/Pap kamu Terbaru/IMG-20260706-WA0006.jpg", caption: "Pap terbaru kamu yang paling manis 💕" },
