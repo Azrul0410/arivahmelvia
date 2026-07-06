@@ -16,56 +16,62 @@ const TIMELINE_EVENTS = [
     id: "meet",
     emoji: "📅",
     title: "Pertama Kenalan",
-    date: "12 Januari 2024",
-    photo: "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=600&h=400&fit=crop&auto=format",
+    date: "Perpisahan SMA",
+    photo: "/Foto Kami/Perpisahan SMA/IMG-20230620-WA0009.jpg",
     story:
-      "Masih ingat waktu pertama kali kita kenalan? Rasanya canggung tapi ada yang aneh — ada perasaan yang susah dijelasin. Dan ternyata perasaan itu nggak salah.",
+      "Awal mula kisah kita saat perpisahan SMA. Masih ingat waktu pertama kali kita berfoto bersama? Rasanya canggung tapi sangat berkesan.",
+  },
+  {
+    id: "together_photo",
+    emoji: "❤️",
+    title: "Pertama Kali Foto Berdua",
+    date: "Awal Cerita",
+    photo: "/Foto Kami/Pertama Kali Foto Ber 2/Pertama Foto Ber 2.webp",
+    story:
+      "Pertama kali kita memberanikan diri untuk berfoto berdua saja. Momen sederhana ini menjadi awal dari kedekatan kita.",
   },
   {
     id: "date",
-    emoji: "❤️",
-    title: "Pertama Jalan",
-    date: "3 Februari 2024",
-    photo: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=600&h=400&fit=crop&auto=format",
-    story:
-      "Date pertama kita. Aku nervous banget, kamu juga kelihatan agak gugup. Tapi waktu kita mulai ngobrol, rasanya semua canggung itu hilang. Hari yang aku nggak akan lupa.",
-  },
-  {
-    id: "together",
     emoji: "🌸",
-    title: "Pertama Jadian",
-    date: "14 Februari 2024",
-    photo: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600&h=400&fit=crop&auto=format",
+    title: "Date Pertama Setelah Jadian",
+    date: "27 Juli 2024",
+    photo: "/Foto Kami/Date Pertama Setelah Jadian/IMG20240727221814.jpg",
     story:
-      "Hari yang paling aku tunggu-tunggu. Kamu bilang iya, dan rasanya jantungku mau copot. Terima kasih sudah mau jadi milikku.",
+      "Kencan pertama kita yang penuh tawa dan kebahagiaan. Waktu terasa berjalan sangat cepat saat aku bersamamu.",
   },
   {
-    id: "birthday",
-    emoji: "🎂",
-    title: "Ulang Tahun",
-    date: "5 Mei 2024",
-    photo: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&h=400&fit=crop&auto=format",
+    id: "holding_hands",
+    emoji: "🚗",
+    title: "Pegangan Tangan di Mobil",
+    date: "Momen Manis",
+    photo: "/Foto Kami/Foto Pegangan Tangan Di Mobil/1739187903548.jpg",
     story:
-      "Ulang tahunmu yang pertama kita rayakan bersama. Semoga semua impianmu terkabul, dan semoga aku bisa terus ada di setiap ulang tahunmu.",
+      "Genggaman tangan hangat di dalam mobil, memberikan rasa tenang dan meyakinkan bahwa kita akan melalui segalanya bersama.",
   },
   {
-    id: "today",
-    emoji: "✨",
-    title: "Hari Ini",
-    date: "Sekarang",
-    photo: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=600&h=400&fit=crop&auto=format",
+    id: "kkn",
+    emoji: "🥺",
+    title: "Foto Terakhir Sebelum KKN",
+    date: "17 Mei 2026",
+    photo: "/Foto Kami/Foto Terakhir sebelum kkn/IMG-20260517-WA0029.jpg",
     story:
-      "Dan sekarang, kita masih di sini. Masih saling menyayangi, masih saling mendukung. Perjalanan kita belum selesai — dan aku nggak sabar untuk terus melanjutkannya bersamamu.",
+      "Momen perpisahan sementara sebelum kamu berangkat KKN. Sedih rasanya harus berjauhan, tapi aku tahu ini untuk kebaikanmu.",
   },
 ];
 
 const GALLERY_ITEMS = [
-  { id: 1, photo: "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=500&h=500&fit=crop&auto=format", caption: "Foto pertama kita 📸" },
-  { id: 2, photo: "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=500&h=500&fit=crop&auto=format", caption: "Sore indah bersamamu 🌅" },
-  { id: 3, photo: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=500&h=500&fit=crop&auto=format", caption: "Kamu selalu terlihat indah 💕" },
-  { id: 4, photo: "https://images.unsplash.com/photo-1470116945706-e6bf5d5a53ca?w=500&h=500&fit=crop&auto=format", caption: "Jalan-jalan seru bareng 🌸" },
-  { id: 5, photo: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=500&h=500&fit=crop&auto=format", caption: "Tertawa bareng adalah hal terbaik ✨" },
-  { id: 6, photo: "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=500&h=500&fit=crop&auto=format", caption: "Setiap momen bersamamu berharga 🎀" },
+  { id: 1, photo: "/Foto Kami/Date Pertama Setelah Jadian/IMG20240727221814.jpg", caption: "Date pertama setelah jadian ❤️" },
+  { id: 2, photo: "/Foto Kami/DB 1 sama isek/IMG-20250201-WA0036.jpg", caption: "Momen seru bareng 🌸" },
+  { id: 3, photo: "/Foto Kami/First dia Ke BL/IMG-20240618-WA0010.jpg", caption: "Dia pertama kali ke BL ✨" },
+  { id: 4, photo: "/Foto Kami/Foto Terakhir sebelum kkn/IMG-20260517-WA0066.jpg", caption: "Foto terakhir sebelum kamu berangkat KKN 🥺" },
+  { id: 5, photo: "/Foto Kami/Main Di Taplau/IMG20250604182704.jpg", caption: "Main di Taplau menikmati sore 🌅" },
+  { id: 6, photo: "/Foto Kami/OTW Bukit/IMG20250406185136.jpg", caption: "OTW Bukit seru-seruan bareng ⛰️" },
+  { id: 7, photo: "/Foto Kami/Pap kamu Terbaru/IMG-20260706-WA0006.jpg", caption: "Pap terbaru kamu yang paling manis 💕" },
+  { id: 8, photo: "/Foto Kami/Pergi Ke Pesta Pernikahan/IMG-20250823-WA0016.jpg", caption: "Pergi kondangan bareng 🤵‍♂️👰‍♀️" },
+  { id: 9, photo: "/Foto Kami/Saat Membuat Video Pepisahan/20230122_214954.jpg", caption: "Waktu bikin video perpisahan sekolah 🎓" },
+  { id: 10, photo: "/Foto Kami/Waktu sama circle kamu/IMG-20250629-WA0006.jpg", caption: "Kumpul seru bareng circle kamu 🌸" },
+  { id: 11, photo: "/Foto Kami/Pertama Kali Pergi Jauh/IMG-20250514-WA0152.jpg", caption: "Perjalanan pertama kali kita pergi jauh 🚗" },
+  { id: 12, photo: "/Foto Kami/Saat Kamu Ke Alahan Panjang/Picsart_23-07-03_11-30-24-488.jpg", caption: "Saat kamu berlibur ke Alahan Panjang ❄️" },
 ];
 
 const LETTER_PARAGRAPHS = [
@@ -328,7 +334,7 @@ function PhotoPage({ onNext }: { onNext: () => void }) {
 
         <div className="aspect-square w-full overflow-hidden bg-neutral-900 rounded-xs mb-4">
           <img
-            src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&h=800&fit=crop&auto=format"
+            src="/Foto Kami/Pertama Kali Foto Ber 2/Pertama Foto Ber 2.webp"
             alt="Momen istimewa kita"
             className="w-full h-full object-cover grayscale-30 contrast-110"
           />
