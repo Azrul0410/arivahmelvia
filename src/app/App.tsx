@@ -118,10 +118,10 @@ function LoadingPage({ onDone }: { onDone: () => void }) {
 
   useEffect(() => {
     const textStates = [
-      "Mengumpulkan momen indah...",
-      "Menyusun galeri foto...",
-      "Menulis surat untukmu...",
-      "Menghubungkan hati kita...",
+      "Mengumpulkan momen indah Azrul & Ariva...",
+      "Menyusun galeri foto Adek Inces...",
+      "Menulis surat cinta untuk Adek...",
+      "Menghubungkan hati abang & adek...",
       "Selesai! ❤️",
     ];
     let step = 0;
@@ -220,10 +220,10 @@ function WelcomePage({ onNext, startMusic }: { onNext: () => void; startMusic: (
           ❤️
         </motion.p>
         <h1 className="font-display text-5xl md:text-6xl text-foreground italic mb-4 leading-tight">
-          Welcome, Sayang
+          Welcome, Adek Inces
         </h1>
         <p className="text-muted-foreground text-lg max-w-xs mx-auto leading-relaxed">
-          Ada sesuatu yang ingin aku tunjukkan kepadamu...
+          Ada sesuatu yang ingin Abg Azrul tunjukkan kepadamu...
         </p>
       </motion.div>
 
@@ -276,7 +276,7 @@ function GatePage({ onNext }: { onNext: () => void }) {
           Sebelum lanjut, jawab dulu ya...
         </h2>
         <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
-          Apakah kamu siap untuk menyelami kenangan indah kita bersama?
+          Apakah Adek Ariva siap untuk menyelami kenangan indah kita bersama?
         </p>
       </motion.div>
 
@@ -353,7 +353,7 @@ function PhotoPage({ onNext }: { onNext: () => void }) {
         className="text-center mt-4"
       >
         <h2 className="font-display text-3xl text-foreground italic">
-          &ldquo;Masih ingat hari ini?&rdquo;
+          &ldquo;Masih ingat hari ini, Adek?&rdquo;
         </h2>
       </motion.div>
 
@@ -366,7 +366,7 @@ function PhotoPage({ onNext }: { onNext: () => void }) {
         whileTap={{ scale: 0.95 }}
         className="px-8 py-3 border border-primary/60 text-primary rounded-full hover:bg-primary hover:text-primary-foreground transition-all flex items-center gap-2 cursor-pointer shadow-md"
       >
-        Iya, aku ingat <ChevronRight className="w-4 h-4" />
+        Iya, Adek ingat <ChevronRight className="w-4 h-4" />
       </motion.button>
     </div>
   );
@@ -634,7 +634,7 @@ function LetterPage({ onNext }: { onNext: () => void }) {
               className="w-full aspect-[4/3] bg-card rounded-2xl border border-primary/20 shadow-2xl flex flex-col items-center justify-center gap-4 cursor-pointer hover:border-primary/50 relative overflow-hidden group p-6"
               style={{ background: "linear-gradient(135deg, #1c0d12 0%, #2a1520 100%)" }}
             >
-              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent pointer-events-none" />
+              <div className="text-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent pointer-events-none" />
 
               <motion.div
                 animate={{ y: [0, -6, 0] }}
@@ -645,7 +645,7 @@ function LetterPage({ onNext }: { onNext: () => void }) {
               </motion.div>
 
               <div className="text-center">
-                <h3 className="font-display text-2xl text-foreground italic">Surat Untukmu</h3>
+                <h3 className="font-display text-2xl text-foreground italic">Surat Untuk Adek Inces</h3>
                 <p className="text-muted-foreground text-sm mt-1 tracking-wider">Ketuk untuk membuka amplop 💌</p>
               </div>
             </motion.div>
@@ -660,7 +660,7 @@ function LetterPage({ onNext }: { onNext: () => void }) {
             >
               <div className="text-center mb-8">
                 <span className="text-xs uppercase tracking-[0.3em] text-primary font-semibold font-sans">Sepenuh Hati</span>
-                <h2 className="font-display text-4xl text-foreground italic mt-2">Surat Dari Aku</h2>
+                <h2 className="font-display text-4xl text-foreground italic mt-2">Surat Dari Abg Azrul</h2>
               </div>
 
               <div
@@ -748,7 +748,7 @@ function CountdownPage() {
       >
         <span className="text-xs uppercase tracking-[0.3em] text-primary font-semibold font-sans">Hitung Mundur</span>
         <h2 className="font-display text-4xl md:text-5xl text-foreground italic mt-2 mb-2">Tinggal...</h2>
-        <p className="text-muted-foreground text-sm">Sampai aku bisa peluk kamu lagi ❤️</p>
+        <p className="text-muted-foreground text-sm">Sampai Abg Azrul bisa peluk Adek Ariva lagi ❤️</p>
       </motion.div>
 
       <motion.div
@@ -788,9 +788,9 @@ function CountdownPage() {
         </motion.div>
 
         <p className="text-muted-foreground text-sm leading-relaxed font-sans">
-          Nggak sabar banget. Cepat pulang ya, Sayang.
+          Nggak sabar banget. Cepat pulang ya Adek Inces.
           <br />
-          Aku selalu kangen kamu di sini.
+          Abg selalu kangen Adek di sini.
         </p>
 
         <button
