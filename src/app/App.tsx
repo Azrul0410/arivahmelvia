@@ -24,8 +24,9 @@ const TIMELINE_EVENTS = [
   {
     id: "meet",
     emoji: "📅",
-    title: "Akhir Masa Abu"",
+    title: "Akhir Masa Abu",
     date: "Perpisahan SMA",
+
     photo: "/Foto Kami/Perpisahan SMA/IMG-20230620-WA0009.jpg",
     story:
       "Awal mula kisah kita saat perpisahan SMA. Masih ingat waktu pertama kali kita berfoto bersama? Rasanya canggung tapi sangat berkesan.",
