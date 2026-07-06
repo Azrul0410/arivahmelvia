@@ -67,7 +67,7 @@ const GALLERY_ITEMS = [
   { id: 5, photo: "/Foto Kami/Main Di Taplau/IMG20250604182704.jpg", caption: "Main di Taplau menikmati sore 🌅" },
   { id: 6, photo: "/Foto Kami/OTW Bukit/IMG20250406185136.jpg", caption: "OTW Bukit seru-seruan bareng ⛰️" },
   { id: 7, photo: "/Foto Kami/Pap kamu Terbaru/IMG-20260706-WA0006.jpg", caption: "Pap terbaru kamu yang paling manis 💕" },
-  { id: 8, photo: "/Foto Kami/Pergi Ke Pesta Pernikahan/IMG-20250823-WA0016.jpg", caption: "Pergi kondangan bareng 🤵‍♂️👰‍♀️" },
+  { id: 8, photo: "/Foto Kami/Pergi Ke Pesta Pernikahan/IMG-20250823-WA0016.jpg", caption: "Pergi kondangan bareng 🤵♂️👰♀️" },
   { id: 9, photo: "/Foto Kami/Saat Membuat Video Pepisahan/20230122_214954.jpg", caption: "Waktu bikin video perpisahan sekolah 🎓" },
   { id: 10, photo: "/Foto Kami/Waktu sama circle kamu/IMG-20250629-WA0006.jpg", caption: "Kumpul seru bareng circle kamu 🌸" },
   { id: 11, photo: "/Foto Kami/Pertama Kali Pergi Jauh/IMG-20250514-WA0152.jpg", caption: "Perjalanan pertama kali kita pergi jauh 🚗" },
@@ -942,3 +942,4 @@ export default function App() {
     </div>
   );
 }
+
