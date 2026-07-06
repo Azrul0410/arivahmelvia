@@ -12,16 +12,7 @@ const PAGE_ORDER: Page[] = ["welcome", "gate", "photo", "timeline", "gallery", "
 // ─── Data ─────────────────────────────────────────────────────────────────────
 
 const TIMELINE_EVENTS = [
-  {
-    id: "meet",
-    emoji: "📅",
-    title: "Pertama Kenalan",
-    date: "Perpisahan SMA",
-    photo: "/Foto Kami/Perpisahan SMA/IMG-20230620-WA0009.jpg",
-    story:
-      "Awal mula kisah kita saat perpisahan SMA. Masih ingat waktu pertama kali kita berfoto bersama? Rasanya canggung tapi sangat berkesan.",
-  },
-  {
+   {
     id: "together_photo",
     emoji: "❤️",
     title: "Pertama Kali Foto Berdua",
@@ -29,6 +20,15 @@ const TIMELINE_EVENTS = [
     photo: "/Foto Kami/Pertama Kali Foto Ber 2/Pertama Foto Ber 2.webp",
     story:
       "Pertama kali kita memberanikan diri untuk berfoto berdua saja. Momen sederhana ini menjadi awal dari kedekatan kita.",
+  },
+  {
+    id: "meet",
+    emoji: "📅",
+    title: "Akhir Masa Abu"",
+    date: "Perpisahan SMA",
+    photo: "/Foto Kami/Perpisahan SMA/IMG-20230620-WA0009.jpg",
+    story:
+      "Awal mula kisah kita saat perpisahan SMA. Masih ingat waktu pertama kali kita berfoto bersama? Rasanya canggung tapi sangat berkesan.",
   },
   {
     id: "date",
@@ -42,7 +42,7 @@ const TIMELINE_EVENTS = [
   {
     id: "holding_hands",
     emoji: "🚗",
-    title: "Pegangan Tangan di Mobil",
+    title: "Momen di Mobil",
     date: "Momen Manis",
     photo: "/Foto Kami/Foto Pegangan Tangan Di Mobil/1739187903548.jpg",
     story:
@@ -51,11 +51,11 @@ const TIMELINE_EVENTS = [
   {
     id: "kkn",
     emoji: "🥺",
-    title: "Foto Terakhir Sebelum KKN",
+    title: "Foto Terakhir Sebelum LDR Again",
     date: "17 Mei 2026",
     photo: "/Foto Kami/Foto Terakhir sebelum kkn/IMG-20260517-WA0029.jpg",
     story:
-      "Momen perpisahan sementara sebelum kamu berangkat KKN. Sedih rasanya harus berjauhan, tapi aku tahu ini untuk kebaikanmu.",
+      "Momen perpisahan sementara untuk pendidikan masing. Sedih rasanya harus berjauhan, tapi aku tahu ini untuk kebaikanmu.",
   },
 ];
 
@@ -75,16 +75,15 @@ const GALLERY_ITEMS = [
 ];
 
 const LETTER_PARAGRAPHS = [
-  "Sayang,",
-  "Kalau kamu lagi baca ini, mungkin kamu lagi capek karena KKN... Mungkin sinyal susah, mungkin kamu kangen rumah, kangen keluarga, kangen tidur di kasur sendiri.",
-  "Tapi aku mau kamu tahu — dari jauh ini, aku selalu mikirin kamu. Setiap hari, tanpa gagal.",
-  "Aku bangga sama kamu. Bangga sama perjuanganmu, sama cara kamu tetap kuat meski capek, sama semangatmu yang nggak pernah padam.",
-  "Kamu nggak perlu sempurna buat aku. Kamu cukup jadi kamu — dan itu sudah lebih dari cukup.",
-  "Pulang nanti, aku bakal peluk kamu erat banget. Kangen banget sama kamu.",
-  "Jaga diri baik-baik ya, Sayang. Makan yang cukup, tidur yang cukup. Dan inget — ada aku yang selalu tunggu kamu di sini. ❤️",
-  "Dengan semua cinta yang aku punya,",
+  "Adek Sayang,",
+  "Kalau Adek lagi baca ini, mungkin Adek lagi ngerasa capek banget sama semua rutinitas KKN di sana... Mungkin juga sinyal lagi susah, Adek lagi kangen rumah, kangen keluarga, atau sekadar kangen rebahan tenang di kasur sendiri.",
+  "Tapi Abg mau Adek selalu tahu satu hal — dari jauh ini, pikiran Abg nggak pernah absen buat nemenin Adek. Setiap hari, tanpa pernah gagal, Adek selalu ada di kepala Abg.",
+  "Abg bangga banget sama Adek. Bangga sama setiap perjuangan kecilmu di sana, sama cara Adek tetap bertahan meski badan udah capek, dan sama senyum Adek yang nggak pernah pudar.",
+  "Adek nggak pernah perlu jadi sempurna buat Abg. Cukup jadi diri Adek sendiri — karena bagi Abg, semesta Abg udah lengkap dan lebih dari cukup waktu sama Adek.",
+  "Nanti kalau waktu pulang itu udah tiba, siap-siap ya, Abg bakal peluk Adek erat-erat buat ngelepas semua rasa kangen yang udah numpuk ini.",
+  "Jaga diri Adek baik-baik ya di sana, Sayang. Jangan sampai telat makan, dan usahain tidur yang cukup. Inget terus — di sini, ada Abg yang selalu setia nungguin Adek pulang. ❤️",
+  "Dengan seluruh cinta yang Abg punya, Azrul",
 ];
-
 const TARGET_DATE = new Date("2026-08-01T00:00:00");
 
 // ─── Hook: Countdown ──────────────────────────────────────────────────────────
