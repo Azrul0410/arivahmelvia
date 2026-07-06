@@ -1,17 +1,9 @@
 $git = "C:\Program Files\Git\bin\git.exe"
-$lockPath = "C:\Users\LINDOW\Downloads\Journey of Us Website\.git\index.lock"
 
-# Force delete lock file using .NET
-try {
-    [System.IO.File]::Delete($lockPath)
-    Write-Host "Lock file deleted successfully." -ForegroundColor Green
-} catch {
-    Write-Host "Could not delete lock: $_" -ForegroundColor Yellow
-}
-
-# Stage files
-Write-Host "=== Staging files ===" -ForegroundColor Cyan
-& $git add .
+# Set git identity
+Write-Host "=== Setting git identity ===" -ForegroundColor Cyan
+& $git config --global user.email "azrul@example.com"
+& $git config --global user.name "Azrul"
 
 # Commit
 Write-Host "=== Committing ===" -ForegroundColor Cyan
