@@ -85,7 +85,7 @@ const LETTER_PARAGRAPHS = [
   "Jaga diri Adek baik-baik ya di sana, Sayang. Jangan sampai telat makan, dan usahain tidur yang cukup. Inget terus — di sini, ada Abg yang selalu setia nungguin Adek pulang. ❤️",
   "Dengan seluruh cinta yang Abg punya, Azrul",
 ];
-const TARGET_DATE = new Date("2026-07-18T00:00:00");
+const TARGET_DATE = new Date("2026-07-19T00:00:00");
 
 // ─── Hook: Countdown ──────────────────────────────────────────────────────────
 
