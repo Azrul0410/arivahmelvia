@@ -118,10 +118,10 @@ function LoadingPage({ onDone }: { onDone: () => void }) {
 
   useEffect(() => {
     const textStates = [
-      "Mengumpulkan momen indah Azrul & Ariva...",
-      "Menyusun galeri foto Adek Inces...",
-      "Menulis surat cinta untuk Adek...",
-      "Menghubungkan hati abang & adek...",
+      "Mengumpulkan momen indah...",
+      "Menyusun galeri foto...",
+      "Menulis surat untuk Adek...",
+      "Menghubungkan hati kita...",
       "Selesai! ❤️",
     ];
     let step = 0;
@@ -220,10 +220,10 @@ function WelcomePage({ onNext, startMusic }: { onNext: () => void; startMusic: (
           ❤️
         </motion.p>
         <h1 className="font-display text-5xl md:text-6xl text-foreground italic mb-4 leading-tight">
-          Welcome, Adek Inces
+          Welcome, Adek
         </h1>
         <p className="text-muted-foreground text-lg max-w-xs mx-auto leading-relaxed">
-          Ada sesuatu yang ingin Abg Azrul tunjukkan kepadamu...
+          Ada sesuatu yang ingin Abg tunjukkan kepadamu...
         </p>
       </motion.div>
 
@@ -276,7 +276,7 @@ function GatePage({ onNext }: { onNext: () => void }) {
           Sebelum lanjut, jawab dulu ya...
         </h2>
         <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
-          Apakah Adek Ariva siap untuk menyelami kenangan indah kita bersama?
+          Apakah Adek siap untuk menyelami kenangan indah kita bersama?
         </p>
       </motion.div>
 
@@ -645,7 +645,7 @@ function LetterPage({ onNext }: { onNext: () => void }) {
               </motion.div>
 
               <div className="text-center">
-                <h3 className="font-display text-2xl text-foreground italic">Surat Untuk Adek Inces</h3>
+                <h3 className="font-display text-2xl text-foreground italic">Surat Untuk Adek</h3>
                 <p className="text-muted-foreground text-sm mt-1 tracking-wider">Ketuk untuk membuka amplop 💌</p>
               </div>
             </motion.div>
@@ -660,7 +660,7 @@ function LetterPage({ onNext }: { onNext: () => void }) {
             >
               <div className="text-center mb-8">
                 <span className="text-xs uppercase tracking-[0.3em] text-primary font-semibold font-sans">Sepenuh Hati</span>
-                <h2 className="font-display text-4xl text-foreground italic mt-2">Surat Dari Abg Azrul</h2>
+                <h2 className="font-display text-4xl text-foreground italic mt-2">Surat Dari Abg</h2>
               </div>
 
               <div
@@ -748,7 +748,7 @@ function CountdownPage() {
       >
         <span className="text-xs uppercase tracking-[0.3em] text-primary font-semibold font-sans">Hitung Mundur</span>
         <h2 className="font-display text-4xl md:text-5xl text-foreground italic mt-2 mb-2">Tinggal...</h2>
-        <p className="text-muted-foreground text-sm">Sampai Abg Azrul bisa peluk Adek Ariva lagi ❤️</p>
+        <p className="text-muted-foreground text-sm">Sampai Abg bisa peluk Adek lagi ❤️</p>
       </motion.div>
 
       <motion.div
@@ -788,7 +788,7 @@ function CountdownPage() {
         </motion.div>
 
         <p className="text-muted-foreground text-sm leading-relaxed font-sans">
-          Nggak sabar banget. Cepat pulang ya Adek Inces.
+          Nggak sabar banget. Cepat pulang ya, Adek.
           <br />
           Abg selalu kangen Adek di sini.
         </p>
