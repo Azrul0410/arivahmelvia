@@ -334,7 +334,7 @@ function PhotoPage({ onNext }: { onNext: () => void }) {
 
         <div className="aspect-square w-full overflow-hidden bg-neutral-900 rounded-xs mb-4">
           <img
-            src="/Foto Kami/Pertama Kali Foto Ber 2/Pertama Foto Ber 2.webp"
+            src="/Foto Kami/Momen Terindah/IMG-20260517-WA0066.jpg"
             alt="Momen istimewa kita"
             className="w-full h-full object-cover grayscale-30 contrast-110"
           />
